@@ -1,0 +1,247 @@
+body {
+  margin: 0px;
+  font-family: "Prompt", sans-serif;
+  background-color: #0c0c2c;
+}
+.contain {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  background-color: #0c0c2c;
+  color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+.logo {
+  text-align: center;
+}
+ul {
+  display: flex;
+  align-items: center;
+}
+li {
+  margin: 0px 30px;
+}
+.item {
+  color: white;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  /* border: 5px solid red; */
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  /* background: url(https://www.brandbuffet.in.th/wp-content/uploads/2019/07/code-1076536_1280.jpg); */
+  /* background-repeat: no-repeat; */
+  background-image: linear-gradient(181deg, #bc0066, #560096);
+  /* background-size: cover; */
+}
+
+.header-info {
+  width: 550px;
+  text-align: center;
+  height: 200px;
+  color: white;
+  background-color: rgb(118, 15, 187);
+  box-shadow: 0 0 10px rgb(227, 216, 230);
+  border-radius: 10px;
+  padding: 10px;
+}
+.header-info a {
+  display: block;
+  text-decoration: none;
+  background-image: linear-gradient(181deg, #bc0066, #560096);
+  /* background-color: antiquewhite; */
+  margin-top: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5rem 1rem;
+  width: 150px;
+  color: rgb(253, 252, 252);
+  border-radius: 10px;
+}
+.teams {
+  display: grid;
+  grid-gap: 5px;
+  background-color: #0c0c2c;
+  grid-template-columns: repeat(3, 1fr);
+}
+.team-item {
+  border: 3px solid #560096;
+  border-radius: 20px;
+  padding: 2rem;
+  padding-top: 0%;
+  background-color: rgb(55, 29, 80);
+  text-align: center;
+  color: white;
+  width: 380px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 10px auto;
+}
+.team-item img {
+  width: 150px;
+  border-radius: 100%;
+  box-shadow: 0 0 10px rgb(233, 35, 216);
+}
+.team-item a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 0.5rem 1rem;
+  background-color: #6b30c5;
+  border-radius: 20px;
+  box-shadow: 0 0 15px hsl(274, 100%, 29%);
+}
+.stories {
+  display: grid;
+  grid-template-columns: 440px 1fr;
+  border: 3px solid #560096;
+  border-radius: 20px;
+  padding-top: 0%;
+  background-color: rgb(55, 29, 80);
+  color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+.stories p {
+  display: flex;
+  text-align: justify;
+  margin-top: 73px;
+  margin-right: 25px;
+}
+.story-item {
+  text-align: center;
+}
+
+.story-item img {
+  width: 150px;
+  border-radius: 100%;
+  box-shadow: 0 0 10px rgb(233, 35, 216);
+}
+.note-head-school {
+  height: 500px;
+  /* background-image: linear-gradient(200deg, #fdf90f, #1f6fe7); */
+  margin-top: 0%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(https://bobec.bopp-obec.info/b01/6003005014625390120191030002856463835321.jpg);
+}
+.head-school-item {
+  text-align: center;
+  background-image: linear-gradient(220deg, #fdf90f, #1f6fe7);
+  border-radius: 20px;
+  box-shadow: 0 0 10px #fdf90f;
+}
+.box-1 {
+  padding: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.noted {
+  display: grid;
+  margin: 50px 20px;
+  grid-template-columns: 200px 1fr;
+  color: #fff;
+  text-align: left;
+  background: rgba(0, 160, 253, 0.342);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 10px#6b30c5;
+}
+.noted img {
+  width: 500px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px #7706f8;
+  margin-left: 680px;
+}
+.noted p {
+  display: grid;
+  width: 800px;
+  margin-left: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.head-names {
+  margin-top: 31px;
+  margin-bottom: -16px;
+  font-size: large;
+}
+.box-2 {
+  margin-left: auto;
+  padding: 100px;
+  align-items: center;
+  justify-content: center;
+}
+.noted-1 {
+  display: flex;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 300px;
+  background: rgba(0, 160, 253, 0.342);
+  padding-top: -10px;
+  margin: 50px 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px#6b30c5;
+  z-index: 2;
+}
+.grid-item {
+  color: #fff;
+}
+.grid-item img {
+  width: 280px;
+  margin-left: 35px;
+}
+hr {
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 0 1px#fdf90f;
+  background-image: linear-gradient(220deg, #fdf90f, #1f6fe7);
+  width: 10px;
+  height: 200px;
+  top: 64px;
+  left: 59px;
+  z-index: 1;
+}
+.teams-2 {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 300px 300px;
+  padding: 50px;
+  margin: -40px 0 0 0;
+}
+.team-item-2 {
+  border-radius: 15px;
+  text-align: center;
+  background: rgb(150, 4, 247);
+}
+.team-item-2 img {
+  width: 60px;
+}
+.team-item-2 a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  border-radius: 15px;
+  background-image: linear-gradient(100deg, #ff9c07, #ce33d3);
+  padding: 0.5rem 1rem;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* button {
+  background-image: linear-gradient(181deg, #bc0066, #560096);
+  border: 0% solid; */
+
+footer {
+  background: rgb(32, 31, 31);
+  padding: 1rem;
+  text-align: left;
+  color: rgb(99, 98, 98);
+  font-size: 10px;
+}
